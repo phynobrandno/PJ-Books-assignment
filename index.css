@@ -192,6 +192,64 @@ margin: -300px auto;
     height: 200px;
 }
 
+.hero-section2{
+    border-radius: 30px;
+    margin-top: 400px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.hero-section2 img{
+    width: 100%;   
+     border-radius: 30px;
+    
+    }
+    .hero-section2 h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto 15px;
+    }
+    .hero-section2 #h3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        color: white;
+        border-radius: 50px;
+        width: 176px;
+        height: 55px;
+       margin-top:  25px;
+    }
+    #ma{
+        margin-top: 35px;
+    }
+    .hero-section2 .see-details{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    }
+    .hero-section2 p{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top:  15px;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width:425px) {
 .header{
