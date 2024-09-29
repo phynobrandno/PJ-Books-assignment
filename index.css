@@ -308,7 +308,7 @@ margin: -300px auto;
         display: block;
         align-items: center;
         align-content: center;
-        top: 320px;
+        bottom: -350px;
     }
     .new-collection{
         margin: 500px auto;
@@ -381,7 +381,7 @@ margin: -300px auto;
     margin-top: 455px;
 }
     .hero-section2 img{
-        width: 100%;   
+        width: 390px;   
          border-radius: 30px;
         
         }
