@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    background-color: black;
+    height:40px ;
+}
+#header-text{
+    max-width: 1250px;
+    width: 100%;
+    background-color: black;
+    height: 40px;
+    justify-content:center;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+
+}
+
+#logo-navbar-icon-section{
+    display: flex;
+    max-width: 1250px;
+    width: 100%;
+    justify-content: space-between;
+    gap: 25px;
+    margin: 12px auto;
+}
+.logo{
+    font-size: 25px;
+    color: black;
+}
+#icon-fa{
+    display: none;
+}
+.nav-bar{
+    display: flex;
+    gap: 25px;
+}
+.icon{
+    display: flex;
+    gap: 25px;
+    
+}
+.icon img{
+    width: 25px;
+    height: 25px;
+
+}
+.her0-section{
+max-width: 1250px;
+width: 100%;
+}
+#ion{
+    margin: 0 30 ;
+}
+#hero-image img{
+    height: 80vh;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 20px;
+    position: absolute;
+}
+#text{
+    position: relative;
+bottom: -350px;
+color: white;
+font-size: 40px;
+width: 600px;
+height: 48.41;
+max-width: 1250px;
+margin: 25px 30px;
+}
+#text2{
+    position: relative;
+bottom: -350px;
+color: white;
+font-size: 20px;
+width:500px;
+height: 24.2px;
+max-width: 1250px;
+margin: 25px 30px;
+}
+#Explored{
+    
+}
+#Explored-button{
+    color: black;
+   
+    background-color: white;
+    position: relative;
+    bottom: -290px;
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 176px;
+    height: 55px;
+    left: 1100px;
+ gap: 10px;
+ font-size: 24px;
+ margin: 0 40px;
+}
+.new-collection{
+    max-width: 1250px;
+    width: 100%;
+    margin: 400px auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+#coll1{
+    color: black;
+    font-size: 40px;
+    
+}
+#coll2{
+    color: black;
+    font-size: 20px;
+}
+.book-price{
+    max-width: 1250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+flex-wrap: wrap;
+margin: -300px auto;
+}
+.book-price .Box1{
+    text-align: center;
+}
+
+.book-price .Box1 img{
+    width: 300px;
+    height: 200px;
+}
+.book-price .Box2{
+    text-align: center;
+}
+
+.book-price .Box2 img{
+    width: 300px;
+    height: 200px;
+}
+.book-price .Box3{
+    text-align: center;
+}
+
+.book-price .Box3 img{
+    width: 300px;
+    height: 200px;
+}
+.book-price .Box4{
+    text-align: center;
+}
+
+.book-price .Box4 img{
+    width: 300px;
+    height: 200px;
+}
+.book-price .Box5{
+    text-align: center;
+}
+
+.book-price .Box5 img{
+    width: 300px;
+    height: 200px;
+}
+.book-price .Box6{
+    text-align: center;
+}
+
+.book-price .Box6 img{
+    width: 300px;
+    height: 200px;
+}
+.book-price .Box7{
+    text-align: center;
+}
+
+.book-price .Box7 img{
+    width: 300px;
+    height: 200px;
+}
+.book-price .Box8{
+    text-align: center;
+}
+
+.book-price .Box8 img{
+    width: 300px;
+    height: 200px;
+}
+
+
+@media (max-width:425px) {
+.header{
+    width: 420px;
+}
+    #header-text{
+        text-align: center;
+        height:50px ;
+        margin-bottom: 25px;
+        max-width: 385px;
+        width: 100%
+    }
+    #logo-navbar-icon-section{
+        margin: 27px 0;
+        max-width:385px ;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .logo{
+        font-size:15px ;
+    }
+    #icon-fa{
+        display: flex;
+        font-size: 25px;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .icon{
+        gap: 5px;
+    }
+    #text-button{
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        display: block;
+        
+    }
+    #text{
+        font-size:25px ;
+        bottom: -250px;
+
+    }
+    #text2{
+        font-size: 15px;
+        width: 300px; 
+        text-align: center;
+        bottom: -250px;
+
+    }
+    #Explored-button{
+        left: 45px;
+        gap: 10px;
+        font-size: 24px;
+        justify-content: center;
+        display: block;
+        align-items: center;
+        align-content: center;
+    }
+    .new-collection{
+        margin: 450px auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+    #coll1{
+        font-size: 25px;
+        
+    }
+    #coll2{
+        font-size: 15px;
+    }
+    .book-price{
+        justify-content: space-evenly;
+        margin: -400px auto;
+    }
+
+    .book-price .Box1 img{
+        width: 150px;
+        height: 200px;
+        margin:auto 5px ;
+    }
+    .book-price .Box2 img{
+        width: 150px;
+        height: 200px;
+        margin:auto 5px ;
+
+    }
+    .book-price .Box3 img{
+        width: 150px;
+        height: 200px;
+        margin:auto 5px ;
+
+    }
+    .book-price .Box4 img{
+        width: 150px;
+        height: 200px;
+        margin:auto 5px ;
+
+    }
+    .book-price .Box5 img{
+        width: 150px;
+        height: 200px;
+        margin:auto 5px ;
+
+    }
+    .book-price .Box6 img{
+        width: 150px;
+        height: 200px;
+        margin:auto 5px ;
+
+    }
+    .book-price .Box7 img{
+        width: 150px;
+        height: 200px;
+        margin:auto 5px ;
+
+    }
+    .book-price .Box8 img{
+        width: 150px;
+        height: 200px;
+        margin:auto 5px ;
+
+    }
+
+
+}
+
+
