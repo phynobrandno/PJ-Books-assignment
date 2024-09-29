@@ -301,13 +301,14 @@ margin: -300px auto;
 
     }
     #Explored-button{
-        left: 45px;
+        left: 60px;
         gap: 10px;
         font-size: 24px;
         justify-content: center;
         display: block;
         align-items: center;
         align-content: center;
+        top: 320px;
     }
     .new-collection{
         margin: 500px auto;
@@ -376,7 +377,14 @@ margin: -300px auto;
         margin:auto 5px ;
 
     }
-
+.hero-section2{
+    margin-top: 455px;
+}
+    .hero-section2 img{
+        width: 100%;   
+         border-radius: 30px;
+        
+        }
 
 }
 
