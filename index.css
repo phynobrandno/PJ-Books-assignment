@@ -611,8 +611,17 @@ margin-bottom: 20px;
         display: block;
         align-items: center;
         align-content: center;
-        bottom: -350px;
+        bottom: -280px;
     }
+
+    #hero-image img{
+        height: 70vh;
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 20px;
+        position: absolute;
+    }
+    
     .new-collection{
         margin: 500px auto;
         display: block;
