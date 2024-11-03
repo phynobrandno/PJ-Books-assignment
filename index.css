@@ -542,7 +542,7 @@ margin-bottom: 20px;
 
 
 
-@media (max-width:768px) {
+@media (min-width:425px) {
     #header{
         background-color: black;
         height:50px ;
